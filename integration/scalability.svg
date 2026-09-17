@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1100" height="480" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .title { font: bold 15px sans-serif; fill: #111; text-anchor: middle; }
+  .axis-title { font: 12px sans-serif; fill: #333; text-anchor: middle; }
+  .tick { font: 11px monospace; fill: #444; }
+  .grid { stroke: #e5e7eb; stroke-width: 1; }
+  .legend { font: 12px sans-serif; fill: #333; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="280" y="35" class="title">Ускорение S(p)</text>
+<line x1="80" y1="370" x2="480" y2="370" class="grid"/>
+<text x="70" y="374" class="tick" text-anchor="end">0.0</text>
+<line x1="80" y1="310.0" x2="480" y2="310.0" class="grid"/>
+<text x="70" y="314.0" class="tick" text-anchor="end">14.1</text>
+<line x1="80" y1="250.0" x2="480" y2="250.0" class="grid"/>
+<text x="70" y="254.0" class="tick" text-anchor="end">28.2</text>
+<line x1="80" y1="190.0" x2="480" y2="190.0" class="grid"/>
+<text x="70" y="194.0" class="tick" text-anchor="end">42.2</text>
+<line x1="80" y1="130.0" x2="480" y2="130.0" class="grid"/>
+<text x="70" y="134.0" class="tick" text-anchor="end">56.3</text>
+<line x1="80" y1="70.0" x2="480" y2="70.0" class="grid"/>
+<text x="70" y="74.0" class="tick" text-anchor="end">70.4</text>
+<polyline fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,5" points="80.0,365.7 146.7,361.5 213.3,353.0 280.0,335.9 346.7,301.8 413.3,233.6 480.0,97.3 "/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="80.0,365.7 146.7,360.8 213.3,350.0 280.0,350.3 346.7,360.9 413.3,365.9 480.0,368.1 "/>
+<circle cx="80.0" cy="365.7" r="4.5" fill="#2563eb"/>
+<text x="80.0" y="355.7" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">1.00x</text>
+<text x="80.00" y="390" class="tick" text-anchor="middle">1</text>
+<circle cx="146.67" cy="360.81" r="4.5" fill="#2563eb"/>
+<text x="146.67" y="350.81" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">2.16x</text>
+<text x="146.67" y="390" class="tick" text-anchor="middle">2</text>
+<circle cx="213.33" cy="349.98" r="4.5" fill="#2563eb"/>
+<text x="213.33" y="339.98" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">4.70x</text>
+<text x="213.33" y="390" class="tick" text-anchor="middle">4</text>
+<circle cx="280.00" cy="350.34" r="4.5" fill="#2563eb"/>
+<text x="280.00" y="340.34" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">4.61x</text>
+<text x="280.00" y="390" class="tick" text-anchor="middle">8</text>
+<circle cx="346.67" cy="360.86" r="4.5" fill="#2563eb"/>
+<text x="346.67" y="350.86" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">2.14x</text>
+<text x="346.67" y="390" class="tick" text-anchor="middle">16</text>
+<circle cx="413.33" cy="365.86" r="4.5" fill="#2563eb"/>
+<text x="413.33" y="355.86" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">0.97x</text>
+<text x="413.33" y="390" class="tick" text-anchor="middle">32</text>
+<circle cx="480.00" cy="368.10" r="4.5" fill="#2563eb"/>
+<text x="480.00" y="358.10" class="tick" font-weight="bold" fill="#1e40af" text-anchor="middle">0.45x</text>
+<text x="480.00" y="390" class="tick" text-anchor="middle">64</text>
+<line x1="80" y1="70" x2="80" y2="370" stroke="#111" stroke-width="1.5"/>
+<line x1="80" y1="370" x2="480" y2="370" stroke="#111" stroke-width="1.5"/>
+<text x="280" y="415" class="axis-title">Число потоков (p)</text>
+<line x1="80" y1="440" x2="105" y2="440" stroke="#2563eb" stroke-width="3"/>
+<text x="115" y="444" class="legend">Реальное S(p)</text>
+<line x1="260" y1="440" x2="285" y2="440" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4,4"/>
+<text x="295" y="444" class="legend">Идеальное (S = p)</text>
+<text x="800" y="35" class="title">Время работы T(p)</text>
+<line x1="600" y1="370.00" x2="1000" y2="370.00" class="grid"/>
+<text x="590" y="374.00" class="tick" text-anchor="end">0.000 с</text>
+<line x1="600" y1="310.000" x2="1000" y2="310.000" class="grid"/>
+<text x="590" y="314.000" class="tick" text-anchor="end">0.000 с</text>
+<line x1="600" y1="250.000" x2="1000" y2="250.000" class="grid"/>
+<text x="590" y="254.000" class="tick" text-anchor="end">0.001 с</text>
+<line x1="600" y1="190.000" x2="1000" y2="190.000" class="grid"/>
+<text x="590" y="194.000" class="tick" text-anchor="end">0.001 с</text>
+<line x1="600" y1="130.000" x2="1000" y2="130.000" class="grid"/>
+<text x="590" y="134.000" class="tick" text-anchor="end">0.002 с</text>
+<line x1="600" y1="70.000" x2="1000" y2="70.000" class="grid"/>
+<text x="590" y="74.000" class="tick" text-anchor="end">0.002 с</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="3" points="600.000,253.888 666.667,316.146 733.333,345.288 800.000,344.833 866.667,315.849 933.333,250.404 1000.000,109.130 "/>
+<circle cx="600.000" cy="253.888" r="4.5" fill="#dc2626"/>
+<text x="600.000" y="243.888" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0009</text>
+<text x="600.0000" y="390" class="tick" text-anchor="middle">1</text>
+<circle cx="666.6667" cy="316.1460" r="4.5" fill="#dc2626"/>
+<text x="666.6667" y="306.1460" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0004</text>
+<text x="666.6667" y="390" class="tick" text-anchor="middle">2</text>
+<circle cx="733.3333" cy="345.2879" r="4.5" fill="#dc2626"/>
+<text x="733.3333" y="335.2879" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0002</text>
+<text x="733.3333" y="390" class="tick" text-anchor="middle">4</text>
+<circle cx="800.0000" cy="344.8327" r="4.5" fill="#dc2626"/>
+<text x="800.0000" y="334.8327" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0002</text>
+<text x="800.0000" y="390" class="tick" text-anchor="middle">8</text>
+<circle cx="866.6667" cy="315.8488" r="4.5" fill="#dc2626"/>
+<text x="866.6667" y="305.8488" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0004</text>
+<text x="866.6667" y="390" class="tick" text-anchor="middle">16</text>
+<circle cx="933.3333" cy="250.4039" r="4.5" fill="#dc2626"/>
+<text x="933.3333" y="240.4039" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0010</text>
+<text x="933.3333" y="390" class="tick" text-anchor="middle">32</text>
+<circle cx="1000.0000" cy="109.1304" r="4.5" fill="#dc2626"/>
+<text x="1000.0000" y="99.1304" class="tick" font-weight="bold" fill="#991b1b" text-anchor="middle">0.0021</text>
+<text x="1000.0000" y="390" class="tick" text-anchor="middle">64</text>
+<line x1="600" y1="70" x2="600" y2="370" stroke="#111" stroke-width="1.5"/>
+<line x1="600" y1="370" x2="1000" y2="370" stroke="#111" stroke-width="1.5"/>
+<text x="800" y="415" class="axis-title">Число потоков (p)</text>
+<line x1="600" y1="440" x2="625" y2="440" stroke="#dc2626" stroke-width="3"/>
+<text x="635" y="444" class="legend">Время T(p) в сек.</text>
+</svg>
