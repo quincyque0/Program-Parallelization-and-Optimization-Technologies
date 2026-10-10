@@ -1,0 +1,9 @@
+simpson_omp
+integration/.vscode
+integration/scalability.svg
+integration/results.csv
+plot
+integration/alborator2/build
+.DS_Store
+.vscode
+.
